@@ -1,0 +1,122 @@
+body {
+    background: black;
+}
+ 
+ 
+ /*==========  Pour les ecrans large  ==========*/
+
+
+.rm {
+    margin: 0 !important;
+}
+
+.rp {
+    padding: 0 !important;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+/* =====LE PROJECTEUR===== */
+
+
+.projecteur img {
+    width: 100%;
+    height: 100vh; /* Viewport(taille de l'ecran) height */
+   /* object-fit: cover;  Ne pas deformer l'image  */
+}
+
+/* =====LA NAVIGATION===== */
+
+nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    background-color: rgba(110, 106, 106, 0.329);
+}
+nav ul {
+    text-align: center;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 25px;
+}
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ===== NOS VIDEOS ===== */
+#Nos-Videos {
+    background: url(../img/israel.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* ===== NOS PHOTOS ===== */
+#Nos-Photos {
+    padding: 40px 0;
+}
+
+#Nos-Photos article h3 {
+
+}
+
+/* ===== PIED  DE PAGE ===== */
+
+footer {
+    padding: 10px 0;
+    background: rgb(0, 0, 0);
+}
+
+footer > p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+
+}
+
+
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+        
+    }
+        
+    /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+        
+    }
+        
+    /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+        
+    }
+        
+    /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    nav ul li {
+        display: list-item !important;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+        
+    }
+        
+    /* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+        
+}
+
